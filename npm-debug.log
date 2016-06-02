@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\Users\\xkape\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'compass',
+1 verbose cli   '-g' ]
+2 info using npm@3.5.2
+3 info using node@v0.10.20
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData compass
+8 silly fetchNamedPackageData compass
+9 silly mapToRegistry name compass
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/compass
+13 verbose request uri https://registry.npmjs.org/compass
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 12:44:13
+16 verbose request id 485448a00cd7c9f0
+17 http request GET https://registry.npmjs.org/compass
+18 http 200 https://registry.npmjs.org/compass
+19 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+19 verbose headers   etag: '"9D61SYKAOC0HAJNA9K651Z9AH"',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'cache-control': 'max-age=300',
+19 verbose headers   'content-length': '3762',
+19 verbose headers   'accept-ranges': 'bytes',
+19 verbose headers   date: 'Sat, 09 Jan 2016 11:44:22 GMT',
+19 verbose headers   via: '1.1 varnish',
+19 verbose headers   age: '0',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'x-served-by': 'cache-ams4128-AMS',
+19 verbose headers   'x-cache': 'MISS',
+19 verbose headers   'x-cache-hits': '0',
+19 verbose headers   'x-timer': 'S1452339861.985877,VS0,VE169',
+19 verbose headers   vary: 'Accept' }
+20 silly get cb [ 200,
+20 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+20 silly get     etag: '"9D61SYKAOC0HAJNA9K651Z9AH"',
+20 silly get     'content-type': 'application/json',
+20 silly get     'cache-control': 'max-age=300',
+20 silly get     'content-length': '3762',
+20 silly get     'accept-ranges': 'bytes',
+20 silly get     date: 'Sat, 09 Jan 2016 11:44:22 GMT',
+20 silly get     via: '1.1 varnish',
+20 silly get     age: '0',
+20 silly get     connection: 'keep-alive',
+20 silly get     'x-served-by': 'cache-ams4128-AMS',
+20 silly get     'x-cache': 'MISS',
+20 silly get     'x-cache-hits': '0',
+20 silly get     'x-timer': 'S1452339861.985877,VS0,VE169',
+20 silly get     vary: 'Accept' } ]
+21 verbose get saving compass to C:\Users\xkape\AppData\Roaming\npm-cache\registry.npmjs.org\compass\.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule compass@0.1.1 checking installable status
+35 silly cache add args [ 'compass', null ]
+36 verbose cache add spec compass
+37 silly cache add parsed spec { raw: 'compass',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'compass',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: 'latest',
+37 silly cache add   type: 'tag' }
+38 silly addNamed compass@latest
+39 verbose addNamed "latest" is being treated as a dist-tag for compass
+40 info addNameTag [ 'compass', 'latest' ]
+41 silly mapToRegistry name compass
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/compass
+45 verbose addNameTag registry:https://registry.npmjs.org/compass not in flight; fetching
+46 verbose get https://registry.npmjs.org/compass not expired, no request
+47 silly addNameTag next cb for compass with tag latest
+48 silly addNamed compass@0.1.1
+49 verbose addNamed "0.1.1" is a plain semver version for compass
+50 silly mapToRegistry name compass
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/compass
+54 verbose addRemoteTarball https://registry.npmjs.org/compass/-/compass-0.1.1.tgz not in flight; adding
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/compass/-/compass-0.1.1.tgz',
+55 verbose addRemoteTarball   '5c56d5eb442d10c1ad5989ef5c5e925db60c60e1' ]
+56 info retry fetch attempt 1 at 12:44:13
+57 info attempt registry request try #1 at 12:44:13
+58 http fetch GET https://registry.npmjs.org/compass/-/compass-0.1.1.tgz
+59 http fetch 200 https://registry.npmjs.org/compass/-/compass-0.1.1.tgz
+60 silly fetchAndShaCheck shasum 5c56d5eb442d10c1ad5989ef5c5e925db60c60e1
+61 verbose addTmpTarball C:\Users\xkape\AppData\Local\Temp\npm-17788-ef2044fe\registry.npmjs.org\compass\-\compass-0.1.1.tgz not in flight; adding
+62 verbose addTmpTarball already have metadata; skipping unpack for compass@0.1.1
+63 silly cache afterAdd compass@0.1.1
+64 verbose afterAdd C:\Users\xkape\AppData\Roaming\npm-cache\compass\0.1.1\package\package.json not in flight; writing
+65 verbose afterAdd C:\Users\xkape\AppData\Roaming\npm-cache\compass\0.1.1\package\package.json written
+66 silly loadAllDepsIntoIdealTree Finishing
+67 silly idealTree:prePrune nodejs
+67 silly idealTree:prePrune └── compass@0.1.1
+68 silly loadIdealTree Finishing
+69 silly currentTree nodejs
+70 silly idealTree nodejs
+70 silly idealTree └── compass@0.1.1
+71 silly generateActionsToTake Starting
+72 silly install generateActionsToTake
+73 warn checkPermissions Missing write access to C:\Program Files\nodejs\node_modules
+74 silly rollbackFailedOptional Starting
+75 silly rollbackFailedOptional Finishing
+76 silly runTopLevelLifecycles Starting
+77 silly runTopLevelLifecycles Finishing
+78 silly install printInstalled
+79 verbose stack Error: EACCES, access 'C:\Program Files\nodejs\node_modules'
+79 verbose stack     at module.exports (C:\Users\xkape\AppData\Roaming\npm\node_modules\npm\lib\install\access-error.js:4:18)
+79 verbose stack     at C:\Users\xkape\AppData\Roaming\npm\node_modules\npm\lib\install\writable.js:30:25
+79 verbose stack     at C:\Users\xkape\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:230:16
+79 verbose stack     at Object.oncomplete (fs.js:107:15)
+80 verbose cwd C:\Users\xkape\Dropbox (Amni Port Harcourt)\WebDev\TESTAPP
+81 error Windows_NT 6.1.7601
+82 error argv "node" "C:\\Users\\xkape\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "compass" "-g"
+83 error node v0.10.20
+84 error npm  v3.5.2
+85 error path C:\Program Files\nodejs\node_modules
+86 error code EACCES
+87 error Error: EACCES, access 'C:\Program Files\nodejs\node_modules'
+87 error     at module.exports (C:\Users\xkape\AppData\Roaming\npm\node_modules\npm\lib\install\access-error.js:4:18)
+87 error     at C:\Users\xkape\AppData\Roaming\npm\node_modules\npm\lib\install\writable.js:30:25
+87 error     at C:\Users\xkape\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:230:16
+87 error     at Object.oncomplete (fs.js:107:15)
+87 error  { [Error: EACCES, access 'C:\Program Files\nodejs\node_modules']
+87 error   code: 'EACCES',
+87 error   path: 'C:\\Program Files\\nodejs\\node_modules' }
+88 error Please try running this command again as root/Administrator.
+89 verbose exit [ 1, true ]
